@@ -17,8 +17,11 @@ features:
   - studio  # Remove this line if your keyboard will not support ZMK Studio
 
 requires:
-  - seeed_xiao
+  - weact_rp2350b_core
 
 siblings:
   - k1012_left
   - k1012_right
+
+
+
