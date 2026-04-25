@@ -1,0 +1,16 @@
+if SHIELD_K1012_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "k1012"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif # SHIELD_K1012_LEFT
+
+if SHIELD_K1012_LEFT || SHIELD_K1012_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif # SHIELD_K1012_LEFT || SHIELD_K1012_RIGHT
